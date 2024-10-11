@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Actividad</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenido-pie">
+            <div class="column">
+                <h2 class="act">Actividad</h2>
+
+            </div>
+            <div class="column">
+                <form class="buscador">
+                    <input type="search" name="busc" placeholder="Solo decoracion">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <br>
+
+    <main>
+        <div>
+            <table class="tab">
+                <tr></tr>
+                    <th rowspan="2">ID</th>
+                    <th colspan="3">Persona</th>
+                    <th rowspan="2">Puesto</th>
+                    <th rowspan="2">Sueldo</th>
+                </tr>
+
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                </tr>
+                
+                <tr>
+                   <td>1</td>
+                   <td>Carlos</td>
+                   <td>Cruz</td>
+                   <td>27</td>
+                   <td>Desarro. back-end</td>
+                   <td>RD$ 55,0000.00</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Danna</td>
+                    <td>Martinez</td>
+                    <td>29</td>
+                    <td>Desarro. Front-end</td>
+                    <td>RD$ 50,0000.00</td>
+                 </tr>
+
+                 <tr>
+                    <td>3</td>
+                    <td>Jean</td>
+                    <td>Montero</td>
+                    <td>30</td>
+                    <td>QA. Tester</td>
+                    <td>RD$ 40,0000.00</td>
+                 </tr>
+
+                 <tr>
+                    <td>4</td>
+                    <td>Sergio</td>
+                    <td>Acevedo</td>
+                    <td>34</td>
+                    <td>Jefe de proyecto</td>
+                    <td>RD$ 72,0000.00</td>
+                 </tr>
+            </table>
+        </div>
+
+        <br>
+        <form action="" class="formu">
+            <h2 class="reg">Postulate</h2>
+            <br>
+
+            <div class="person">
+                <h4>Sobre usted:</h4>
+                <label for="1">Nombres</label>
+                <input type="text" id="1" name="Nombres" placeholder="Nombres" required>
+
+                <label for="2">Apellidos</label>
+                <input type="text" id="2" name="Apellidos" placeholder="Apellidos" required>
+
+                <label for="3">Fecha de nacimiento</label>
+                <input type="date" name="Fecha de nacimiento" id="3" required>
+
+                <label for="4">Cedula</label>
+                <input type="number" name="Cedula" id="4" placeholder="Cedula" required>
+
+                <label for="5">Dirección</label>
+                <input type="text" id="5" name="direccion" placeholder="Dirección" required>
+            </div>
+
+            <div class="sele">
+                <fieldset>
+                    <legend>Genero</legend>
+                    <label for="6">Hombre</label>
+                    <input type="radio" name="genero" id="6">
+                    <label for="7">Mujer</label>
+                    <input type="radio" name="genero" id="7">
+                </fieldset>
+
+                <h4>Puesto:</h4>
+                <fieldset class="ii">
+                    <legend>Aplicar a:</legend>
+
+                    <label for="8">Desarro. back-end</label>
+                    <input type="checkbox" name="Desarro back-end" id="8">
+
+                    <label for="9">Desarro Front-end</label>
+                    <input type="checkbox" name="Desarro Front-end" id="9">
+
+                    <label for="10">QA. Tester</label>
+                    <input type="checkbox" name="Tester id="10">
+
+                    <label for="11">Jefe de proyecto</label>
+                    <input type="checkbox" name="jefe de proyecto id="11">
+
+                    <label for="12">Desarro. Full Stack</label>
+                    <input type="checkbox" name="Full Stack" id="12">
+                </fieldset>
+            </div>
+
+            <br>
+            <div class="pp">
+                <label for="13">Sueldo deseado</label>
+                <input type="text" name="Sueldo" id="13" placeholder="Sueldo deseado" required>
+
+                <label for="14">Curriculum</label>
+                <input type="file" name="Curriculum" id="14" accept=".pdf" required>
+            </div>
+            
+            <br>
+            <br>
+            <center>
+                <label for="comentario">Por que deberiamos contratarlo</label>
+                <textarea name="Especificaciones" id="comentario" cols="30" rows="10"></textarea>
+
+                <button id="enviar" value="submit">submit</button>
+            </center>
+
+
+        </form>
+
+    </main>
+
+    <br>
+    <footer class="pie">
+        <div class="contenido-pie">
+            <div class="column">
+                <h3>Mis Redes</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contáctame</h3>
+                <ul>
+                    <li>Teléfono: <a href="">829********</a></li>
+                    <li>Email: <a href="">esmil.cruz*@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--<h4> Nos reservamos todos los derechos &copy; Esmil Cruz</h4>-->
+    </footer>
+
+</body>
+</html>
